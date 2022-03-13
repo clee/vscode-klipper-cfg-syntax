@@ -1,17 +1,17 @@
 {
-    "name": "klipper-config",
-    "displayName": "Klipper Config",
-    "description": "Syntax highlighting for Klipper config files",
-    "version": "0.1.6",
-    "publisher": "aeresov",
+    "name": "klipper-cfg",
+    "displayName": "Klipper Configuration",
+    "description": "Syntax highlighting for Klipper configuration files",
+    "version": "0.1.7",
+    "publisher": "clee",
     "license": "read LICENSE file",
     "engines": {
         "vscode": "^1.44.0"
     },
-    "homepage": "https://github.com/aeresov/klipper-config-syntax/blob/master/README.md",
+    "homepage": "https://github.com/clee/klipper-cfg-syntax/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aeresov/vscode-klipper-config-syntax.git"
+        "url": "https://github.com/clee/vscode-klipper-cfg-syntax.git"
     },
     "icon": "images/klipper-logo.png",
     "categories": [
@@ -20,10 +20,11 @@
     "contributes": {
         "languages": [
             {
-                "id": "klipper-config",
+                "id": "klipper-cfg",
                 "aliases": [
-                    "Klipper Config",
-                    "klipper-config"
+                    "klipper config",
+                    "klipper-config",
+                    "klipper-configuration"
                 ],
                 "extensions": [
                     ".cfg"
@@ -33,9 +34,9 @@
         ],
         "grammars": [
             {
-                "language": "klipper-config",
-                "scopeName": "source.klipper-config",
-                "path": "./syntaxes/klipper-config.tmLanguage.json"
+                "language": "klipper-cfg",
+                "scopeName": "source.klipper-cfg",
+                "path": "./syntaxes/klipper-cfg.tmLanguage.json"
             }
         ]
     }
