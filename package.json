@@ -2,7 +2,7 @@
     "name": "klipper-cfg",
     "displayName": "Klipper Configuration",
     "description": "Syntax highlighting for Klipper configuration files",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "publisher": "syn-acc",
     "license": "read LICENSE file",
     "engines": {
