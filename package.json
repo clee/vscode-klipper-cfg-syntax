@@ -2,8 +2,8 @@
     "name": "klipper-cfg",
     "displayName": "Klipper Configuration",
     "description": "Syntax highlighting for Klipper configuration files",
-    "version": "0.1.7",
-    "publisher": "clee",
+    "version": "0.1.8",
+    "publisher": "syn-acc",
     "license": "read LICENSE file",
     "engines": {
         "vscode": "^1.44.0"
